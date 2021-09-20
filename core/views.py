@@ -13,13 +13,18 @@ class Index(View):
 
 class Products(View):
     def get(self, request):
+        product = None
         category = Category.objects.all()
-        product = Product.objects.all()
+        categoryID = request.GET.get('category')
+        if categoryID:
+            product = Product.get_all_products_by_category_id(categoryID)
+        else:
+            product = Product.objects.all()
 
         return render(request, 'product.html', {'products': product, 'category': category})
 
 
-class ProductDetails(View):
-    def get(self, request, pk):
-        product = Product.objects.get(id=pk)
-        return render(request, 'product_details.html', {'product': product})
+# class ProductDetails(View):
+#     def get(self, request, pk):
+#         product = Product.objects.get(id=pk)
+#         return render(request, 'product_details.html', {'product': product})

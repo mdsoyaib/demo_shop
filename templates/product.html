@@ -10,9 +10,9 @@ Eshop Products
     <div class="row">
         <!-- category -->
         <div class="col-lg-2">
-            <a class="list-group-item" href="">All Products</a>
+            <a class="list-group-item" href="product">All Products</a>
             {% for category in category %}
-            <a class="list-group-item" href="">{{category.name}}</a>
+            <a class="list-group-item" href="?category={{category.id}}">{{category.name}}</a>
             {% endfor %}
         </div>
         <!-- product -->
