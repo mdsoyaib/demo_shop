@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a1fbff8-d404-41dd-b594-dfb7d07ca221" name="Default Changelist" comment="" />
+    <list default="true" id="7a1fbff8-d404-41dd-b594-dfb7d07ca221" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xXoKhDXx590vcRlQ7hUdkRUZks" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -69,13 +73,37 @@
       <option name="presentableId" value="Default" />
       <updated>1630510731336</updated>
     </task>
+    <task id="LOCAL-00001" summary="filtering product by category">
+      <created>1632162124313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632162124313</updated>
+    </task>
+    <task id="LOCAL-00002" summary="showing product details">
+      <created>1632162249630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632162249630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="filtering product by category" />
+    <MESSAGE value="showing product details" />
+    <option name="LAST_COMMIT_MESSAGE" value="showing product details" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1632162121668">
+    <state x="383" y="185" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1632162404265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1632162121668" />
+    <state x="383" y="185" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1632162404265" />
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1632162248691">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1632162248691" />
     <state x="413" y="61" key="FileChooserDialogImpl" timestamp="1631725433758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -100,10 +128,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1630511263648" />
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1632162126201">
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1632162250963">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1632162126201" />
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1632162250963" />
     <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1631687932551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
