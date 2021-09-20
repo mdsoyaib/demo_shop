@@ -24,7 +24,7 @@ class Products(View):
         return render(request, 'product.html', {'products': product, 'category': category})
 
 
-# class ProductDetails(View):
-#     def get(self, request, pk):
-#         product = Product.objects.get(id=pk)
-#         return render(request, 'product_details.html', {'product': product})
+class ProductDetails(View):
+    def get(self, request, pk):
+        product = Product.objects.get(id=pk)
+        return render(request, 'product_details.html', {'product': product})
