@@ -10,9 +10,9 @@ Eshop Products
     <div class="row">
         <!-- category -->
         <div class="col-lg-2">
-            <a class="list-group-item" href="product">All Products</a>
+            <a class="list-group-item" href="">All Products</a>
             {% for category in category %}
-            <a class="list-group-item" href="?category={{category.id}}">{{category.name}}</a>
+            <a class="list-group-item" href="">{{category.name}}</a>
             {% endfor %}
         </div>
         <!-- product -->
@@ -23,7 +23,7 @@ Eshop Products
                 <div class="card mx-auto" style="width: 18rem;">
                     <img height="300px" class="card-img-top" src="/{{p.photo}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title"><a style="text-decoration: none;" href="/product/{{p.id}}">{{p.name}}</a></h5>
+                        <h5 class="card-title">{{p.name}}</h5>
                         <p class="card-text">{{p.price}} Taka</p>
                         <p class="card-text">{{p.category}}</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
